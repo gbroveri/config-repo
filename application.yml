@@ -1,2 +1,11 @@
 eureka.instance:
   prefer-ip-address: true
+
+edgeGateway:
+  storeMappings:
+    - storeMapping:
+      domain: localhost:8080
+      storeId: 10
+    - storeMapping:
+      domain: localhost:9090
+      storeId: 20
